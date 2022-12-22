@@ -44,8 +44,10 @@
         
         $_SESSION['login'] = $myrow['login']; 
         $_SESSION['id'] = $myrow['id'];
+        $_SESSION['key'] = 1;
 
         echo "Вы успешно вошли на сайт! <a href='../welcome.php'>Приступить</a>";
+        
       } else {
         exit ("Извините, введённый вами login или пароль неверный.");
       }

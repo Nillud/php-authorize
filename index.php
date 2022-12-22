@@ -13,6 +13,7 @@
 
       <a class="button" href="login.php">Login</a>
       <p><a class="button" href="register.php">Register</a></p>
+      <p><a class="button" href="welcome.php">Welcome</a></p>
     </div>
     
     <script src="scripts/bootstrap.bundle.min.js"></script>
